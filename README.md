@@ -6,7 +6,7 @@ My focus is turning operational data into clear metrics, reliable reporting, and
 
 ## What I'm building
 
-**Enterprise Device Intelligence & Analytics** — a portfolio project exploring device lifecycle, patch status, support demand, and replacement planning for a fictional organisation.
+**[Enterprise Device Intelligence & Analytics](https://github.com/molelekimc/enterprise-device-intelligence)** — a portfolio project exploring device lifecycle, patch status, support demand, and replacement planning for a fictional organisation.
 
 The project uses independently generated synthetic data. It contains no employer data, code, or proprietary business rules.
 
