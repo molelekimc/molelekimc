@@ -18,16 +18,16 @@ I treat AI as a capable collaborator that still needs a brief, boundaries and a 
 
 ## Featured project
 
-### [Kestrel Device Intelligence](https://github.com/molelekimc/kestrel-device-intelligence)
+### [Kestrel Device Intelligence](https://github.com/molelekimc/kestrel-device-intelligence) · [live demo](https://kestrel-control-room.onrender.com/)
 *Enterprise device analytics with a governed AI assistant, for a fictional 18,000-device manufacturer.*
 
 - **Medallion pipeline (DuckDB):** reconciles Intune, endpoint telemetry and a rollout tracker into Bronze, Silver and Gold layers. Every data-quality rule is logged and nothing is dropped silently.
-- **MCP server for Claude:** 10+ read-only fleet tools with small-group suppression, an identifier check that blocks the whole response, allowlisted inputs and a full audit log.
+- **MCP server for Claude:** 16 read-only fleet tools with small-group suppression, an identifier check that blocks the whole response, allowlisted inputs and a full audit log.
 - **Weekly briefing automation:** Claude drafts the analyst briefing through the same governed tools, and a named reviewer approves it.
 - **Evaluation harness:** 22 of 22 storyline questions pass the evidence tier; Silver layers match the answer key.
 - **Business impact:** ties device health to production-line downtime, service-desk tickets and changes, with illustrative costs shown as ranges.
-- **Live reporting app:** FastAPI and React/TypeScript with an "Ask the fleet" chat, freshness SLAs on every page and atomic refreshes.
-- **Automation:** GitHub Actions rebuild the warehouse and run 267 tests on every push, and every Monday they build the executive report and open the briefing for review.
+- **Live reporting app:** FastAPI and React/TypeScript with an "Ask the fleet" chat, a control room for plant managers, a TV mode for wall screens and freshness SLAs on every page. [Live demo](https://kestrel-control-room.onrender.com/).
+- **Automation:** GitHub Actions rebuild the warehouse and run 290+ tests on every push, and every Monday they build the executive report and open the briefing for review.
 
 ## Toolkit
 
